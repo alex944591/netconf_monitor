@@ -7,9 +7,7 @@ from scrapli.driver.core import EOSDriver
 from scrapli.exceptions import ScrapliException
 import yaml
 import re
-from sys import argv
-from sys import platform
-import os
+import sys
 
 
 def GetOutput(device: dict, check: dict):
@@ -53,8 +51,9 @@ def GetOutput(device: dict, check: dict):
 
         print('EMPTY')
 
-def FindHostInInventory(host: str, cwd: str):
-    with open(f'{cwd}inventory.yml') as f:
+def FindHostInInventory(host: str):
+    with open(f'inventory.yml') as f:
+    # with open('/usr/lib/zabbix/externalscripts/inventory.yml') as f:
         devices = yaml.safe_load(f)
     for device in devices:
         if device['host'] == host:
@@ -62,7 +61,8 @@ def FindHostInInventory(host: str, cwd: str):
     return False
 
 def FindExpInChecks(service: str, cwd: str):
-    with open(f'{cwd}checks.yml') as f:
+    with open(f'checks.yml') as f:
+    # with open('/usr/lib/zabbix/externalscripts/checks.yml') as f:
         services = yaml.safe_load(f)
     for check in services:
         if check['service'] == service:
@@ -71,23 +71,17 @@ def FindExpInChecks(service: str, cwd: str):
 
 
 def main():
-    cwd = os.getcwd()
-    if 'linux' in platform:
-        cwd = cwd + '/'
-    else:
-        cwd = cwd + '\\'
-
     #LOGIN = os.environ.get('LOGIN_REMOTE_ACCESS')
     #PASSWORD = os.environ.get('PASS_REMOTE_ACCESS')
 
     LOGIN = 'kolenkoay'
     PASSWORD = '1q2w3e4r%'
 
-    host = argv[1]
-    service = argv[2]
+    host = sys.argv[1]
+    service = sys.argv[2]
 
-    device = FindHostInInventory(host, cwd)
-    check = FindExpInChecks(service, cwd)
+    device = FindHostInInventory(host)
+    check = FindExpInChecks(service)
 
     if device:
         device['auth_username'] = LOGIN
