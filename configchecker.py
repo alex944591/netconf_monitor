@@ -10,8 +10,10 @@ import yaml
 import logging
 import re
 from sys import argv
+from sys import platform
+import os
 
-def GetOutput(device: dict, check: dict) -> int:
+def GetOutput(device: dict, check: dict):
     device_ip = device['host']
     command = check['command']
     service = check['service']
@@ -56,16 +58,16 @@ def GetOutput(device: dict, check: dict) -> int:
         #print(f"<<Empty {service} config section on the {device_ip}>>\n")
         print ('EMPTY')
 
-def FindHostInInventory(host: str):
-    with open('inventory.yml') as f:
+def FindHostInInventory(host: str, cwd: str):
+    with open(f'{cwd}inventory.yml') as f:
         devices = yaml.safe_load(f)
     for device in devices:
         if device['host'] == host:
             return device
     return False
 
-def FindExpInChecks(service: str):
-    with open('checks.yml') as f:
+def FindExpInChecks(service: str, cwd: str):
+    with open(f'{cwd}checks.yml') as f:
         services = yaml.safe_load(f)
     for check in services:
         if check['service'] == service:
@@ -74,7 +76,13 @@ def FindExpInChecks(service: str):
 
 
 def main():
-    logging.basicConfig(filename='journal.log', format='{asctime} {levelname} {message}',
+    cwd = os.getcwd()
+    if 'linux' in platform:
+        cwd = cwd + '/'
+    else:
+        cwd = cwd + '\\'
+
+    logging.basicConfig(filename=f'{cwd}journal.log', format='{asctime} {levelname} {message}',
                         level=logging.INFO, style='{', datefmt='%Y-%m-%d %H:%M')
 
     #LOGIN = os.environ.get('LOGIN_REMOTE_ACCESS')
@@ -86,8 +94,8 @@ def main():
     host = argv[1]
     service = argv[2]
 
-    device = FindHostInInventory(host)
-    check = FindExpInChecks(service)
+    device = FindHostInInventory(host, cwd)
+    check = FindExpInChecks(service, cwd)
 
     if device:
         device['auth_username'] = LOGIN
