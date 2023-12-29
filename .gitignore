@@ -24,6 +24,7 @@ dist
 build
 *.log
 *.xml
+*.iml
 
 
 #Inventory ignore
