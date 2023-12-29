@@ -1,4 +1,4 @@
-#!/home/alex/venv_alex/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from scrapli.driver.core import IOSXEDriver
