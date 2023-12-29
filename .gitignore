@@ -23,6 +23,7 @@ dist
 *.egg-info
 build
 *.log
+*.xml
 
 
 #Inventory ignore
