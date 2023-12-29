@@ -53,7 +53,7 @@ def GetOutput(device: dict, check: dict) -> int:
         print(f"<<Empty {service} config section on the {device_ip}>>\n")
         return 0
 
-def FindHostInInventory(host: str) -> dict|bool:
+def FindHostInInventory(host: str):
     with open('inventory.yml') as f:
         devices = yaml.safe_load(f)
     for device in devices:
@@ -61,7 +61,7 @@ def FindHostInInventory(host: str) -> dict|bool:
             return device
     return False
 
-def FindExpInChecks(service: str) -> dict|bool:
+def FindExpInChecks(service: str):
     with open('checks.yml') as f:
         services = yaml.safe_load(f)
     for check in services:
