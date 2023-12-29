@@ -43,16 +43,18 @@ def GetOutput(device: dict, check: dict) -> int:
             match1 = re.search(check['regexp1'], line)
             if match1:
                 #print(f"<<{service} config correct on the {device_ip}>>\n")
-                return 1
+                print('OK')
+                return None
 
         for line in output:
             match2 = re.search(check['regexp2'], line)
             if match2:
                 #print(f"<<{service} isn't correct on the {device_ip}>>\n")
-                return 2
+                print('NOT OK')
+                return None
 
         #print(f"<<Empty {service} config section on the {device_ip}>>\n")
-        return 0
+        print ('EMPTY')
 
 def FindHostInInventory(host: str):
     with open('inventory.yml') as f:
@@ -90,8 +92,9 @@ def main():
     if device:
         device['auth_username'] = LOGIN
         device['auth_password'] = PASSWORD
-        code = GetOutput(device, check)
-        return sys.exit(code)
+        GetOutput(device, check)
+        #result = GetOutput(device, check)
+        #return result
     else:
         logging.warning(f"Host {host} isnt in the inventory.yml file")
 
