@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import sys
 
 from scrapli.driver.core import IOSXEDriver
 from scrapli.driver.core import NXOSDriver
 from scrapli.driver.core import EOSDriver
 from scrapli.exceptions import ScrapliException
 import yaml
-import logging
 import re
 from sys import argv
 from sys import platform
 import os
+
 
 def GetOutput(device: dict, check: dict):
     device_ip = device['host']
@@ -29,34 +28,30 @@ def GetOutput(device: dict, check: dict):
             with NXOSDriver(**device) as ssh:
                 reply = ssh.send_command(command)
         else:
-            logging.warning(f"No available driver for ip:platform - "
+            print(f"WARNING: No available driver for ip:platform - "
                             f"{device_ip}:{device_platform}")
             return False
     except ScrapliException as error:
-        logging.error(f"ERROR: {error} has happened during {device['transport']} "
+        print(f"ERROR: {error} has happened during {device['transport']} "
                       f"connection to {device_ip}")
 
-    #Check if a reply isn't failed. If so - return the result.
     if reply.failed:
-        logging.warning(f"Output from {device_ip} is not recieved!")
+        print(f"WARNING:Output from {device_ip} is not recieved!")
     else:
         output = reply.result.split('\n')
         for line in output:
             match1 = re.search(check['regexp1'], line)
             if match1:
-                #print(f"<<{service} config correct on the {device_ip}>>\n")
                 print('OK')
                 return None
 
         for line in output:
             match2 = re.search(check['regexp2'], line)
             if match2:
-                #print(f"<<{service} isn't correct on the {device_ip}>>\n")
                 print('NOT OK')
                 return None
 
-        #print(f"<<Empty {service} config section on the {device_ip}>>\n")
-        print ('EMPTY')
+        print('EMPTY')
 
 def FindHostInInventory(host: str, cwd: str):
     with open(f'{cwd}inventory.yml') as f:
@@ -82,9 +77,6 @@ def main():
     else:
         cwd = cwd + '\\'
 
-    logging.basicConfig(filename=f'{cwd}journal.log', format='{asctime} {levelname} {message}',
-                        level=logging.INFO, style='{', datefmt='%Y-%m-%d %H:%M')
-
     #LOGIN = os.environ.get('LOGIN_REMOTE_ACCESS')
     #PASSWORD = os.environ.get('PASS_REMOTE_ACCESS')
 
@@ -101,10 +93,8 @@ def main():
         device['auth_username'] = LOGIN
         device['auth_password'] = PASSWORD
         GetOutput(device, check)
-        #result = GetOutput(device, check)
-        #return result
     else:
-        logging.warning(f"Host {host} isnt in the inventory.yml file")
+        print(f"WARNING: Host {host} isnt in the inventory.yml file")
 
 if __name__ == "__main__":
     main()
