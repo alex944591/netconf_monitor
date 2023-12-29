@@ -60,7 +60,7 @@ def FindHostInInventory(host: str):
             return device
     return False
 
-def FindExpInChecks(service: str, cwd: str):
+def FindExpInChecks(service: str):
     with open(f'checks.yml') as f:
     # with open('/usr/lib/zabbix/externalscripts/checks.yml') as f:
         services = yaml.safe_load(f)
