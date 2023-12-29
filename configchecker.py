@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import sys
 
 from scrapli.driver.core import IOSXEDriver
 from scrapli.driver.core import NXOSDriver
@@ -41,16 +42,16 @@ def GetOutput(device: dict, check: dict) -> int:
         for line in output:
             match1 = re.search(check['regexp1'], line)
             if match1:
-                print(f"<<{service} config correct on the {device_ip}>>\n")
+                #print(f"<<{service} config correct on the {device_ip}>>\n")
                 return 1
 
         for line in output:
             match2 = re.search(check['regexp2'], line)
             if match2:
-                print(f"<<{service} isn't correct on the {device_ip}>>\n")
+                #print(f"<<{service} isn't correct on the {device_ip}>>\n")
                 return 2
 
-        print(f"<<Empty {service} config section on the {device_ip}>>\n")
+        #print(f"<<Empty {service} config section on the {device_ip}>>\n")
         return 0
 
 def FindHostInInventory(host: str):
@@ -89,8 +90,8 @@ def main():
     if device:
         device['auth_username'] = LOGIN
         device['auth_password'] = PASSWORD
-        result = GetOutput(device, check)
-        return result
+        code = GetOutput(device, check)
+        return sys.exit(code)
     else:
         logging.warning(f"Host {host} isnt in the inventory.yml file")
 
