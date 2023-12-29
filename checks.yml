@@ -1,0 +1,8 @@
+- service: "Syslog"
+  command: "show running-config | i ^logging"
+  regexp1: "^logging.*10.159.114.67"
+  regexp2: "^logging.*(?:\\d{1,3}.){3}\\d{1,3}"
+- service: "NTP"
+  command: "show running-config | i ntp serv"
+  regexp1: "^ntp server.*10.159.114.38"
+  regexp2: "^ntp server.*(?:\\d{1,3}.){3}\\d{1,3}"

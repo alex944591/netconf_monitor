@@ -1,0 +1,136 @@
+- host: "172.20.38.10"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.36.10"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.36.13"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.39.73"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "eos"
+- host: "172.20.39.74"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "eos"
+- host: "172.20.39.35"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "nxos"
+- host: "172.20.39.36"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "nxos"
+- host: "172.20.36.11"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "nxos"
+- host: "172.20.36.12"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 20  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "nxos"
+- host: "172.20.36.170"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.36.169"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.36.172"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "172.20.36.171"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "192.168.31.5"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 20  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "192.168.31.3"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 20  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "192.168.31.6"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "192.168.31.7"
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"

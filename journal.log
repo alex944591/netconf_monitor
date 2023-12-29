@@ -1,0 +1,526 @@
+2023-12-28 15:57 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 15:59 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:00 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:01 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:02 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:03 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:07 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:10 ERROR ERROR: 
+
+******************** Transport Plugin Extra Not Installed! *********************
+Optional transport plugin 'ssh2' is not installed!
+To resolve this issue, install the transport plugin. You can do this in one of the following ways:
+1: 'pip install -r requirements-ssh2.txt'
+2: 'pip install scrapli[ssh2]'
+********************************************************************************
+ has happened during ssh2 connection to 172.20.38.10
+2023-12-28 16:11 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:11 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:11 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:11 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:11 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:11 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:11 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:11 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:11 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:14 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:14 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:14 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:14 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:14 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:14 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:15 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:15 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:15 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:15 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:15 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:15 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:15 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:15 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:15 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:15 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:15 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:15 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:19 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:19 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:19 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:19 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:19 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:19 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:19 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:20 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:20 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:20 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:20 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:20 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:20 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:20 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:20 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:20 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:22 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:22 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:22 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:22 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:22 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:22 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:22 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:22 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:22 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:22 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:22 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:22 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:22 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:23 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:23 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:23 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:23 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:23 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:23 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:23 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:23 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:23 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:24 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:24 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:24 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:24 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:24 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:24 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:24 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:24 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:24 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:27 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:27 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:27 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:27 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:27 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:27 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:27 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:27 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:27 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:28 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:28 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:28 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:28 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:28 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:28 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-28 16:28 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-28 16:28 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:28 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-28 16:28 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-28 16:28 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-28 16:28 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-28 16:28 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 10:02 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 10:02 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:02 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 10:02 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 10:02 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 10:02 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 10:02 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 10:02 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:02 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 10:04 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 10:04 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 10:04 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 10:04 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 10:04 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 10:04 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 10:04 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 10:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:04 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 10:05 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 10:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:05 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 10:05 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 10:05 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 10:05 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 10:05 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 10:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 10:05 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:03 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:03 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:03 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:03 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:03 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:03 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:03 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:03 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:03 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:03 INFO sending channel input: show running-config | i ntp serv; strip_prompt: True; eager: False
+2023-12-29 11:03 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:03 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:03 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:03 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:04 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:04 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:04 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:04 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:04 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:04 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:04 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:04 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:04 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:04 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:05 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 11:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:05 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 11:05 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 11:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:05 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:05 INFO opening connection to '172.20.39.73' on port '22'
+2023-12-29 11:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:05 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:05 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:05 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:05 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO connection to '172.20.39.73' on port '22' opened successfully
+2023-12-29 11:05 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:05 INFO closing connection to '172.20.39.73' on port '22'
+2023-12-29 11:05 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:05 INFO connection to '172.20.39.73' on port '22' closed successfully
+2023-12-29 11:09 INFO opening connection to '172.20.39.73' on port '22'
+2023-12-29 11:09 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:09 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:09 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:09 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:09 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:09 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:09 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:09 INFO connection to '172.20.39.73' on port '22' opened successfully
+2023-12-29 11:09 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:09 INFO closing connection to '172.20.39.73' on port '22'
+2023-12-29 11:09 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:09 INFO connection to '172.20.39.73' on port '22' closed successfully
+2023-12-29 11:18 INFO opening connection to '172.20.39.73' on port '22'
+2023-12-29 11:18 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:18 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:18 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:18 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:18 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:18 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO connection to '172.20.39.73' on port '22' opened successfully
+2023-12-29 11:18 INFO sending channel input: show running-config | i ^logging.*10.159.114.67; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO closing connection to '172.20.39.73' on port '22'
+2023-12-29 11:18 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:18 INFO connection to '172.20.39.73' on port '22' closed successfully
+2023-12-29 11:18 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 11:18 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:18 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 11:18 INFO sending channel input: show running-config | i ^logging.*10.159.114.67; strip_prompt: True; eager: False
+2023-12-29 11:18 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 11:18 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:18 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:19 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:19 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:19 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:19 INFO sending channel input: show running-config | i ^logging.*10.159.114.67; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:19 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:19 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:19 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:19 INFO sending channel input: show running-config | i ^logging.*10.159.114.67; strip_prompt: True; eager: False
+2023-12-29 11:19 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:19 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:19 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:23 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:23 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:23 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:23 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:23 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:23 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:23 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:23 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:23 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:23 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:23 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:23 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:23 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:24 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:24 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:24 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:24 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:24 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:24 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:24 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:24 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:24 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:24 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:24 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:25 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 11:25 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:25 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:25 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 11:25 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 11:25 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:25 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 11:25 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:25 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:26 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 11:26 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:26 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:26 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 11:26 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 11:26 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:26 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 11:26 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:26 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:35 INFO opening connection to '172.20.38.10' on port '22'
+2023-12-29 11:35 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:35 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO sending channel input: terminal width 512; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO connection to '172.20.38.10' on port '22' opened successfully
+2023-12-29 11:35 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO closing connection to '172.20.38.10' on port '22'
+2023-12-29 11:35 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:35 INFO connection to '172.20.38.10' on port '22' closed successfully
+2023-12-29 11:35 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:35 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:35 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:35 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:35 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:35 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:35 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:35 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:35 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:35 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:35 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:38 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:38 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:38 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:38 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:38 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:38 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:38 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:38 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:38 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:38 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:38 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:38 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:38 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:38 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:38 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:38 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:38 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:38 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:38 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:38 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:39 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:39 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:39 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:39 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:39 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:39 INFO connection to '172.20.39.74' on port '22' closed successfully
+2023-12-29 11:43 INFO opening connection to '172.20.39.74' on port '22'
+2023-12-29 11:43 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:43 WARNING 
+
+****************************************************************************************************** Authentication Warning! *******************************************************************************************************
+              scrapli will try to escalate privilege without entering a password but may fail.
+Set an 'auth_secondary' password if your device requires a password to increase privilege, otherwise ignore this message.              
+**************************************************************************************************************************************************************************************************************************************
+
+2023-12-29 11:43 INFO sending interactive input: enable; expecting: ^[pP]assword:\s?$; hidden_input: False
+2023-12-29 11:43 INFO sending interactive input: REDACTED; expecting: ^[\w.\-@()/: ]{1,63}#\s?$; hidden_input: True
+2023-12-29 11:43 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:43 INFO sending channel input: terminal length 0; strip_prompt: True; eager: False
+2023-12-29 11:43 INFO sending channel input: terminal width 32767; strip_prompt: True; eager: False
+2023-12-29 11:43 INFO connection to '172.20.39.74' on port '22' opened successfully
+2023-12-29 11:43 INFO sending channel input: show running-config | i ^logging; strip_prompt: True; eager: False
+2023-12-29 11:43 INFO closing connection to '172.20.39.74' on port '22'
+2023-12-29 11:43 INFO attempting to acquire 'privilege_exec' privilege level
+2023-12-29 11:43 INFO connection to '172.20.39.74' on port '22' closed successfully
