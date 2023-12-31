@@ -134,3 +134,11 @@
   timeout_transport: 10  # timeout for ssh|telnet transport
   transport: "ssh2"
   platform: "ios"
+- host: "10.159.120.169"  # CKC-2-14
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
