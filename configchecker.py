@@ -8,6 +8,7 @@ from scrapli.exceptions import ScrapliException
 import yaml
 import re
 import sys
+import os
 
 
 def GetOutput(device: dict, check: dict):
@@ -71,11 +72,8 @@ def FindExpInChecks(service: str):
 
 
 def main():
-    #LOGIN = os.environ.get('LOGIN_REMOTE_ACCESS')
-    #PASSWORD = os.environ.get('PASS_REMOTE_ACCESS')
-
-    LOGIN = 'kolenkoay'
-    PASSWORD = '1q2w3e4r%'
+    LOGIN = os.environ.get('ZABBIX_REMOTE_LOGIN')
+    PASSWORD = os.environ.get('ZABBIX_REMOTE_PASS')
 
     host = sys.argv[1]
     service = sys.argv[2]
