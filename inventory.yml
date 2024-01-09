@@ -142,3 +142,43 @@
   timeout_transport: 10  # timeout for ssh|telnet transport
   transport: "ssh2"
   platform: "ios"
+- host: "10.159.120.170"  # CKC-1-15
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "10.159.120.173"  # dc3_k11u27_sw
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "10.159.120.173"  # dc3_k11u27_sw
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "10.159.120.171"  # OPT-1.2-23
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
+- host: "10.159.120.172"  # OPT-1.2-21
+  auth_username: None
+  auth_password: None
+  auth_strict_key: False
+  timeout_socket: 5  # timeout for establishing socket/initial connection
+  timeout_transport: 10  # timeout for ssh|telnet transport
+  transport: "ssh2"
+  platform: "ios"
