@@ -33,6 +33,7 @@ def GetOutput(device: dict, check: dict):
     except ScrapliException as error:
         print(f"ERROR: {error} has happened during {device['transport']} "
                       f"connection to {device_ip}")
+        return
 
     if reply.failed:
         print(f"WARNING:Output from {device_ip} is not recieved!")
@@ -72,8 +73,13 @@ def FindExpInChecks(service: str):
 
 
 def main():
-    LOGIN = os.environ.get('ZABBIX_REMOTE_LOGIN')
-    PASSWORD = os.environ.get('ZABBIX_REMOTE_PASS')
+    try:
+        with open(f'credentials.yml') as f:
+        # with open('/usr/lib/zabbix/externalscripts/credentials.yml') as f:
+            cred = yaml.safe_load(f)
+    except FileNotFoundError as error:
+        print(f"ERROR: {error}")
+        return
 
     host = sys.argv[1]
     service = sys.argv[2]
@@ -82,8 +88,8 @@ def main():
     check = FindExpInChecks(service)
 
     if device:
-        device['auth_username'] = LOGIN
-        device['auth_password'] = PASSWORD
+        device['auth_username'] = cred['login']
+        device['auth_password'] = cred['password']
         GetOutput(device, check)
     else:
         print(f"WARNING: Host {host} isnt in the inventory.yml file")
